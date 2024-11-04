@@ -1,0 +1,10 @@
+brolang_interpreter/
+│
+├── app.py                  # Flask backend code
+├── brolang_interpreter.py  # Brolang interpreter logic
+├── requirements.txt        # Python dependencies
+├── static/                 # Folder for static files (CSS, JS)
+│   ├── style.css
+│   └── script.js
+└── templates/              # Folder for HTML templates
+    └── index.html
