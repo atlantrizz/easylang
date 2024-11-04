@@ -1,0 +1,10 @@
+To make your website accessible from any search engine:
+Choose a Hosting Service: You can choose from platforms like Heroku, DigitalOcean, Google Cloud, or AWS.
+Deploy the Application:
+Heroku:
+Create an account on Heroku.
+Install the Heroku CLI.
+Use the CLI to create a new app and push your code to it.
+DigitalOcean:
+Create a Droplet (a virtual server) and set up your Flask application on it.
+Domain Name: Purchase a domain name or use the one provided by your hosting service to make it accessible via the internet.
