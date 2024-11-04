@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brolang Online Interpreter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="editor-container">
+        <h1>Brolang Online Interpreter</h1>
+        <textarea id="codeEditor" placeholder="Write your Brolang code here..."></textarea>
+        <button id="runButton">Run Code</button>
+        <pre id="output">Output will appear here...</pre>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
